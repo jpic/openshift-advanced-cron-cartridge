@@ -2,9 +2,9 @@
 Name: acron
 Vendor: James Pic
 Cartridge-Short-Name: ACRON
-Version: '1.4'
+Version: '1.5'
 Architecture: noarch
-Display-Name: ACron 1.4
+Display-Name: ACron 1.5
 Description: The Advanced Cron cartridge increases MAX_RUN_TIME.
 License: ASL 2.0
 License-Url: http://www.apache.org/licenses/LICENSE-2.0.txt
@@ -20,7 +20,7 @@ Categories:
 Help-Topics:
   Getting Started Guide: https://www.openshift.com/blogs/getting-started-with-cron-jobs-on-openshift
 Provides:
-- cron-1.4
+- cron-1.5
 - cron
 - scheduler-service
 - cron-service
@@ -37,5 +37,5 @@ Scaling:
   Max: -1
 Group-Overrides:
 - components:
-  - cron-1.4
+  - cron-1.5
   - web_framework
